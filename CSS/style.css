@@ -1,0 +1,95 @@
+
+    *{
+        margin: 0px;
+        padding: 0;
+    }
+     body{
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:12%;
+    }
+    header{
+        font-size: xx-large;
+        text-align: center;
+    }
+    div.slideshow{
+        margin: 0px 40px 40px 0px;
+        align-items: center;
+        
+    }
+    
+    .cycle-slideshow img{
+        width: 100%;
+        padding: 10px;
+        
+
+    }
+
+    nav{
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        right: 0;
+        background-color: darkgoldenrod;
+        padding:0 5em;
+        border-bottom: 5px solid red;
+        z-index: 999;
+     }
+     nav img{
+        width:10% ;
+        float: left;
+        margin: 10px 0;
+        min-width: 150px;
+        
+     }
+     nav ul{
+        display: flex;
+        align-items: center;
+        width: 99%;
+     }
+     nav ul li {
+        margin: 1em;
+        list-style: none;
+        width: 20%;
+     }
+        
+     main{
+        width:90%;
+        margin: 0 auto;
+        
+     }
+    .Information{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: yellowgreen;
+        box-shadow: 3px 4px 7px orange;
+        padding:10px;
+        text-transform: capitalize;
+        font-size: medium;
+        margin: 0 auto;
+        
+    }
+    article h2{
+        margin: 20px 0;
+    }
+    .images{
+        display:flex;
+        justify-content: space-between;
+    }
+    div.Events{
+        font-size: medium;
+        font-style: normal;
+        text-transform: lowercase;
+        text-align: justify;
+        
+    }
+    footer{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        float: right;
+        background-color: aqua;
+        
+    }
+     
+     
